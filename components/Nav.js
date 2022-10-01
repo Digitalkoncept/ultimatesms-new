@@ -96,15 +96,16 @@ const Navbar = ({logo}) => {
                           <div className="py-1 flex flex-col">
                             <Menu.Item>
                               {({ active }) => (
-                                <a
-                                  href="#"
+                                <Link
+                                  href="/about"><div
                                   className={classNames(
                                     active ? 'bg-gray-100  text-gray-900  ' : 'text-gray-700',
                                     'block px-4 py-2 font-medium  text-sm   hover-underline-animation'
                                   )}
                                 >
                                   About us
-                                </a>
+                                  </div>
+                                </Link>
                               )}
                             </Menu.Item>
 
@@ -272,15 +273,16 @@ const Navbar = ({logo}) => {
                           <div className="py-1 flex flex-col ">
                             <Menu.Item>
                               {({ active }) => (
-                                <a
-                                  href="#"
+                                <Link
+                                  href="/about"><div
                                   className={classNames(
                                     active ? 'bg-gray-100 text-gray-900   z-40' : 'text-gray-700',
                                     'block px-4 py-2 text-sm   hover-underline-animation'
                                   )}
                                 >
                                   About us
-                                </a>
+                                  </div>
+                                </Link>
                               )}
                             </Menu.Item>
 

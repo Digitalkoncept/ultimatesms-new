@@ -136,10 +136,10 @@ export default function Home() {
               src="images/misc/WhatsApp-1Marketing.webp" alt="blog" />
             <div className="p-6">
 
-              <a href="whatspp-marketing.php" target="_blank"
-                className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded">
-                WhatsApp Marketing
-              </a>
+              <Link href="Post/whatspp-marketing" >  
+                <div className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded" >
+                WhatsApp Marketing </div>
+              </Link>
               <p className="leading-relaxed mb-3 text-gray-800">You can generate awareness and notify about the live sale through
                 promotional SMS to your target customers in no time.</p>
                 <p className="flex items-center font-bold text-gray-700 mb-2">
@@ -175,7 +175,8 @@ export default function Home() {
                   Election SMS
                 </p>
               <div className="flex items-center flex-wrap ">
-              <a href="whatspp-marketing.php" target="_blank"
+              <Link href="Post/whatspp-marketing.php" >
+                <div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded">
                 read more
                 <svg fill="none" stroke="currentColor" stroke-linecap="round"
@@ -183,7 +184,8 @@ export default function Home() {
                   className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+                </div>
+              </Link>
               </div>
             </div>
           </div>
@@ -195,10 +197,12 @@ export default function Home() {
               src="images/misc/Voice-Message1-Broadcasting.webp" alt="blog" />
             <div className="p-6">
 
-            <a href="voice-broadcasting.php" target="_blank"
+            <Link href="Post/voice-broadcasting" >
+            <div
                 className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded">
                 Voice Broadcasting
-              </a>
+                </div>
+              </Link>
               <p className="leading-relaxed mb-3 text-gray-800">You can generate awareness and notify about the live sale through
                 promotional SMS to your target customers in no time.</p>
                 <p className="flex items-center font-bold text-gray-700 mb-2">
@@ -234,7 +238,8 @@ export default function Home() {
                   Election SMS
                 </p>
               <div className="flex items-center flex-wrap ">
-              <a href="voice-broadcasting.php" target="_blank"
+              <Link href="Post/voice-broadcasting" >
+                <div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded">
                 read more
                 <svg fill="none" stroke="currentColor" stroke-linecap="round"
@@ -242,7 +247,8 @@ export default function Home() {
                   className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
                   <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </a>
+                </div>
+              </Link>
               </div>
             </div>
           </div>
@@ -267,13 +273,13 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
-              href="otp-sms.php"
-              target="_blank"
-              className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-3/6 focus:outline-none  rounded"
-            >
+            <Link href="Post/otp-sms"
+              > 
+              <div
+              className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-3/6 focus:outline-none  rounded">
               OTP SMS
-            </a>
+              </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -327,9 +333,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
-                href="otp-sms.php"
-                target="_blank"
+              <Link
+                href="Post/otp-sms">
+              <div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -344,7 +350,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -359,13 +366,13 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
-              href="transactional-sms.php"
-              target="_blank"
+            <Link 
+              href="Post/transactional-sms">
+              <div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded"
             >
-              Transactional SMS
-            </a>
+              Transactional SMS </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -419,9 +426,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
-                href="transactional-sms.php"
-                target="_blank"
+              <Link
+                href="Post/transactional-sms"
+                ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -436,7 +443,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                  </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -451,13 +459,14 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
-              href="whatsapp-business-api.php"
-              target="_blank"
+            <Link
+              href="Post/whatsapp-business-api"
+              ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded"
             >
               WhatsApp Bussiness API
-            </a>
+              </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -511,9 +520,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
-                href="whatsapp-business-api.php"
-                target="_blank"
+              <Link
+                href="Post/whatsapp-business-api"
+                ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -528,7 +537,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -552,13 +562,14 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
-              href="sales-crm.php"
-              target="_blank"
+            <Link
+              href="Post/sales-crm"
+              ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-3/6 focus:outline-none  rounded"
             >
               Sales CRM
-            </a>
+              </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -612,9 +623,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
+              <Link
                 href="sales-crm.php"
-                target="_blank"
+                ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -629,7 +640,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -644,13 +656,14 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
+            <Link
               href="audio-confrencing.php"
-              target="_blank"
+              ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded"
             >
               Audio Conferencing
-            </a>
+              </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -704,9 +717,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
-                href="audio-confrencing.php"
-                target="_blank"
+              <Link
+                href="Post/audio-confrencing"
+                ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -721,7 +734,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>
@@ -736,13 +750,14 @@ export default function Home() {
             style={{}}
           />
           <div className="p-6">
-            <a
+            <Link
               href="ivr-and-miss-call-services.php"
-              target="_blank"
+              ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-3/6 focus:outline-none  rounded"
             >
               IVR &amp; Miss Call
-            </a>
+              </div>
+            </Link>
             <p className="leading-relaxed mb-3 text-gray-800">
               You can generate awareness and notify about the live sale through
               promotional SMS to your target customers in no time.
@@ -796,9 +811,9 @@ export default function Home() {
               Election SMS
             </p>
             <div className="flex items-center flex-wrap ">
-              <a
-                href="ivr-and-miss-call-services.php"
-                target="_blank"
+              <Link
+                href="Post/ivr-and-miss-call-services"
+                ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
                 read more
@@ -813,7 +828,8 @@ export default function Home() {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

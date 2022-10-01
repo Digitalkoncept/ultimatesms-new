@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from '../components/Footer'
 const about = () => {
   return (
     <div>
@@ -397,6 +397,7 @@ const about = () => {
       </div>
     </div>
   </section>
+  <Footer/>
 </>
 
     </div>

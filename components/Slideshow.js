@@ -43,12 +43,12 @@ const Slideshow = () => {
 		// ),update slideshow
 	};
 	return (
-		<div className=" py-12">
+		<div className="pt-[4rem]">
 			<Zoom {...zoomInProperties}>
 				{images.map((each, index) => (
 					<div key={index} className="flex justify-center w-full h-full">
 						<img
-							className="w-full h-full object-cover  rounded-lg shadow-xl"
+							className="w-full lg:h-[500px]  object-cover lg:object-fill  shadow-xl"
 							src={each}
 						/>
 					</div>

@@ -98,7 +98,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/privacypolicy"}>
+              <Link href={"/privacy-policy"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -107,7 +107,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/termsandcondition"}>
+              <Link href={"/terms-and-condition"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -123,7 +123,7 @@ const Footer = () => {
           </p>
           <ul className="mt-2 ">
             <li>
-              <Link href={"/politicalcampaign"}>
+              <Link href={"/political-campaign"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -132,7 +132,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/educationalintitute"}>
+              <Link href={"/educational-intitute"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -141,7 +141,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href={"/hotelindustry"}>
+              <Link href={"/hotel-industry"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -150,7 +150,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/financeindustry"}>
+              <Link href={"/finance-industry"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -159,7 +159,7 @@ const Footer = () => {
           </Link>
             </li>
             <li>
-              <Link href={"/eventmanagement"}>
+              <Link href={"/event-management"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -168,7 +168,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/realestate"}>
+              <Link href={"/real-estate"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -177,7 +177,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"serviceindustry"}>
+              <Link href={"service-industry"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -186,7 +186,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/onlineaggregator"}>
+              <Link href={"/online-aggregator"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -195,7 +195,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/ecommerceservices"}>
+              <Link href={"/e-commerce-services"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -204,7 +204,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/retailservices"}>
+              <Link href={"/retail-services"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -218,7 +218,7 @@ const Footer = () => {
           <p className="font-medium tracking-wide text-green-500">SOLUTIONS</p>
           <ul className="mt-2">
             <li>
-              <Link href={"/bulksmsservices"}>
+              <Link href={"/bulk-sms-services"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -227,7 +227,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/hostedsolutions"}>
+              <Link href={"/hosted-ivr-solutions"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -236,7 +236,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/tollfreenumber"}>
+              <Link href={"/toll-free-number"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -254,7 +254,7 @@ const Footer = () => {
             </Link>
             </li>
             <li>
-              <Link href={"/clicktocall"}>
+              <Link href={"/click-to-all"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -263,7 +263,7 @@ const Footer = () => {
              </Link>
             </li>
             <li>
-              <Link href={"/missedcallservices"}>
+              <Link href={"/missed-call-ervices"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -281,7 +281,7 @@ const Footer = () => {
              </Link>
             </li>
             <li>
-              <Link href={"/emailmarketing"}>
+              <Link href={"/email-marketing"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -290,7 +290,7 @@ const Footer = () => {
              </Link>
             </li>
             <li>
-              <Link href={"/telegrammarketing"}>
+              <Link href={"/telegram-marketing"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >
@@ -299,7 +299,7 @@ const Footer = () => {
              </Link>
             </li>
             <li>
-              <Link href={"/digitalmarketing"}>
+              <Link href={"/digital-marketing"}>
               <a
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
                 >

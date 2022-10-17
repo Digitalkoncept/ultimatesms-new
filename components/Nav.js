@@ -98,8 +98,8 @@ const Navbar = ({logo}) => {
                                 <Link
                                   href="/about"><div
                                   className={classNames(
-                                    active ? 'bg-gray-100  text-gray-900  ' : 'text-gray-700',
-                                    'block px-4 py-2 font-medium  text-sm   hover-underline-animation'
+                                    active ? 'bg-gray-100 cursor-pointer text-gray-900  ' : 'text-gray-700',
+                                    'block px-4 py-2 font-medium  text-sm cursor-pointer   hover-underline-animation'
                                   )}
                                 >
                                   About us
@@ -118,7 +118,6 @@ const Navbar = ({logo}) => {
                       className="hover-underline-animation    px-3 py-2 rounded-md text-base font-semibold"
                     >
                       Products
-
                     </a>
                     </Link>
                     <Link href={'/services'} ><a
@@ -278,7 +277,7 @@ const Navbar = ({logo}) => {
                                 <Link
                                   href="/about"><div
                                   className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900   z-40' : 'text-gray-700',
+                                    active ? 'bg-gray-100 text-gray-900 cursor-pointer   z-40' : 'text-gray-700',
                                     'block px-4 py-2 text-sm   hover-underline-animation'
                                   )}
                                 >

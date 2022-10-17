@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from "next/link"
 const Footer = () => {
   return (
     <div>
@@ -25,84 +25,95 @@ const Footer = () => {
           <p className="font-medium tracking-wide text-green-500">Company</p>
           <ul className="mt-2 ">
             <li>
+              <Link href={"/about"}>
               <a
-                href="about-us.php"
+                
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 About us
               </a>
+              </Link>
             </li>
             <li>
+              <Link href={"/news"}>
               <a
-                href="news.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 News
               </a>
+             </Link>
             </li>
             <li>
+              <Link href={"/blog"}>
               <a
-                href="blog.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Blog
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/"}>
               <a
-                href="partner-with-us.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Partner with us
               </a>
+              </Link>
             </li>
             <li>
+              <Link href={"/contact"}>
               <a
-                href="contact.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Contact Us
               </a>
+              </Link>
             </li>
             <li>
+              <Link href={"/"}>
               <a
-                href="https://cohs.in/tailwind-themes/ultimate-sms/sitemap/sitemap.html"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Sitemap
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/faqs"}>
               <a
-                href="faqs.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 FAQs
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/disclaimer"}>
               <a
-                href="disclaimer.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Disclaimer
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/privacypolicy"}>
               <a
-                href="privacy-policy.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Privacy Policy
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/termsandcondition"}>
               <a
-                href="terms-and-conditions.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Terms-and-Conditions
               </a>
+             </Link>
             </li>
           </ul>
         </div>
@@ -112,84 +123,94 @@ const Footer = () => {
           </p>
           <ul className="mt-2 ">
             <li>
+              <Link href={"/politicalcampaign"}>
               <a
-                href="political-campaign.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Political Campaign
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/educationalintitute"}>
               <a
-                href="educational-institute.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Educational Institute
               </a>
+              </Link>
             </li>
             <li>
+              <Link href={"/hotelindustry"}>
               <a
-                href="hotel-industry.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Hotel Industry
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/financeindustry"}>
               <a
-                href="finance-industry.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Finance Industry
               </a>
+          </Link>
             </li>
             <li>
+              <Link href={"/eventmanagement"}>
               <a
-                href="event-management.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Event Management
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/realestate"}>
               <a
-                href="real-estate.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Real Estate
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"serviceindustry"}>
               <a
-                href="service-industry.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Service Industry
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/onlineaggregator"}>
               <a
-                href="online-aggregator.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Online Aggregator
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/ecommerceservices"}>
               <a
-                href="ecommerce.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 E-commerce
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/retailservices"}>
               <a
-                href="retail.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Retail
               </a>
+             </Link>
             </li>
           </ul>
         </div>
@@ -197,84 +218,94 @@ const Footer = () => {
           <p className="font-medium tracking-wide text-green-500">SOLUTIONS</p>
           <ul className="mt-2">
             <li>
+              <Link href={"/bulksmsservices"}>
               <a
-                href="bulk-sms-services.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Bulk SMS Service
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/hostedsolutions"}>
               <a
-                href="hosted-ivr-solutions.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Hosted IVR Solutions
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/tollfreenumber"}>
               <a
-                href="tollfree.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Toll Free Number
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"Post/voice-broadcasting"}>
               <a
-                href="voice-broadcasting.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Voice Broadcasting
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"/clicktocall"}>
               <a
-                href="click-to-call.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Click to Call
               </a>
+             </Link>
             </li>
             <li>
+              <Link href={"/missedcallservices"}>
               <a
-                href="missed-call-services.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Missed Call Services
               </a>
+            </Link>
             </li>
             <li>
+              <Link href={"Post/sales-crm"}>
               <a
-                href="sales-crm.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Sales CRM
               </a>
+             </Link>
             </li>
             <li>
+              <Link href={"/emailmarketing"}>
               <a
-                href="email-marketing.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Email Marketing
               </a>
+             </Link>
             </li>
             <li>
+              <Link href={"/telegrammarketing"}>
               <a
-                href="telegram-marketing.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Telegram Marketing
               </a>
+             </Link>
             </li>
             <li>
+              <Link href={"/digitalmarketing"}>
               <a
-                href="digital-marketing.php"
                 className="text-white transition-colors duration-300 hover:text-deep-purple-accent-200"
-              >
+                >
                 Digital Marketing
               </a>
+             </Link>
             </li>
           </ul>
         </div>

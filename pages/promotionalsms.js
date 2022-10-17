@@ -28,7 +28,6 @@ const promotionalsms = () => {
         </p>
         <div className="flex flex-col space-y-2 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
           <a
-            href="promotional-sms.php"
             target="_blank"
             className="flex items-center mt-auto font-bold text-white duration-500 btn-main border-0 py-2 px-4 w-2/6 focus:outline-none "
           >

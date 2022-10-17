@@ -115,7 +115,7 @@ export default function Home() {
                   Election SMS
                 </p>
               <div className="flex items-center flex-wrap ">
-             <Link href={"Post/promotional-sms.php"} >
+             <Link href={"Post/promotional-sms"} >
                 <div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded">
                 read more
@@ -175,7 +175,7 @@ export default function Home() {
                   Election SMS
                 </p>
               <div className="flex items-center flex-wrap ">
-              <Link href="Post/whatspp-marketing.php" >
+              <Link href="Post/whatspp-marketing" >
                 <div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded">
                 read more
@@ -624,7 +624,7 @@ export default function Home() {
             </p>
             <div className="flex items-center flex-wrap ">
               <Link
-                href="sales-crm.php"
+                href="sales-crm"
                 ><div
                 className="flex items-center mt-auto font-bold text-white btn-main border-0 py-2 px-4 w-3/6 focus:outline-none  rounded"
               >
@@ -657,7 +657,7 @@ export default function Home() {
           />
           <div className="p-6">
             <Link
-              href="audio-confrencing.php"
+              href="audio-confrencing"
               ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-4/6 focus:outline-none  rounded"
             >
@@ -751,7 +751,7 @@ export default function Home() {
           />
           <div className="p-6">
             <Link
-              href="ivr-and-miss-call-services.php"
+              href="ivr-and-miss-call-services"
               ><div
               className="flex items-center mt-auto font-bold text-white bg-red-600  border-0 py-2 px-3 w-3/6 focus:outline-none  rounded"
             >

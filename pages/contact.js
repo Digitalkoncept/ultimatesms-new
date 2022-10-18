@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 const contact = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
+  const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
   const form = useRef();
 
@@ -28,8 +28,8 @@ const contact = () => {
       tempErrors["email"] = true;
       isValid = false;
     }
-    if (subject.length <= 0) {
-      tempErrors["subject"] = true;
+    if (number.length <= 0) {
+      tempErrors["number"] = true;
       isValid = false;
     }
     if (message.length <= 0) {
@@ -46,7 +46,7 @@ const contact = () => {
 
   const sendEmail = async (e) => {
     e.preventDefault();  
-    emailjs.sendForm('service_ek0th41', 'template_4of9hzj', form.current, 'b9Rz1KRr_N-u2-cfA')
+    emailjs.sendForm('service_7lhu8wk', 'template_6jimasm', form.current, 'b9Rz1KRr_N-u2-cfA')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
@@ -80,7 +80,7 @@ const contact = () => {
       setFullname("");
       setEmail("");
       setMessage("");
-      setSubject("");
+      setNumber("");
     }
     console.log(fullname, email,  message);
    };
@@ -224,19 +224,19 @@ const contact = () => {
             htmlFor="subject"
             className="text-gray-500 font-light mt-4 "
           >
-            Subject<span className="text-red-500">*</span>
+            Number<span className="text-red-500">*</span>
           </label>
           <input
-            type="text"
-            name="subject"
-            value={subject}
+            type="number"
+            name="number"
+            value={number}
             onChange={(e) => {
-              setSubject(e.target.value);
+              setNumber(e.target.value);
             }}
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
-          {errors?.subject && (
-            <p className="text-red-500">Subject cannot be empty.</p>
+          {errors?.number && (
+            <p className="text-red-500">number cannot be empty.</p>
           )}
           <label
             htmlFor="message"

@@ -9,6 +9,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 const Navbar = ({logo}) => {
+  const [showModal, setShowModal] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [dropdownPopoverShow, setDropdownPopoverShow] = React.useState(false);
   const btnDropdownRef = React.createRef();
@@ -150,11 +151,12 @@ const Navbar = ({logo}) => {
                     >
                       Contact Us
                     </a></Link>
-                   
-                    <button type="button" class="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium  text-sm px-5 py-2 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2">
+                   <Link href={"/login"}>
+                    <button  type="button" class="text-white bg-[#3b5998] hover:bg-[#3b5998]/90  focus:outline-none  font-medium  text-sm px-5 py-2 text-center inline-flex items-center  mr-2 mb-2">
                     <svg width="20px" height="20px" className="mx-2 " fill="#ffffff" viewBox="0 -5 50 50" xmlns="http://www.w3.org/2000/svg"><path d="M17.5 20A10 10 0 1 0 7.5 10a10 10 0 0 0 10 10zm7.5 5a4.928 4.928 0 0 1 0.633 -2.383c-0.375 -0.039 -0.742 -0.117 -1.133 -0.117h-1.305a13.6 13.6 0 0 1 -11.391 0h-1.305A10.502 10.502 0 0 0 0 33V36.25a3.75 3.75 0 0 0 3.75 3.75h21.945a4.964 4.964 0 0 1 -0.695 -2.5zm22.5 -2.5h-2.5v-6.25a6.25 6.25 0 0 0 -12.5 0v6.25h-2.5a2.5 2.5 0 0 0 -2.5 2.5v12.5a2.5 2.5 0 0 0 2.5 2.5h17.5a2.5 2.5 0 0 0 2.5 -2.5V25a2.5 2.5 0 0 0 -2.5 -2.5zM38.75 33.75a2.5 2.5 0 1 1 2.5 -2.5 2.5 2.5 0 0 1 -2.5 2.5zm2.5 -11.25h-5v-6.25a2.5 2.5 0 0 1 5 0z"/></svg>
                     Log In
                   </button>
+                   </Link>
 
                   </div>
                 </div>

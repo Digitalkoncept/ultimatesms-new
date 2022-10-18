@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ultimatesms.in
+
+# Sitemaps
+Sitemap: https://ultimatesms.in/sitemap.xml

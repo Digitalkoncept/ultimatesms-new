@@ -1,10 +1,13 @@
 import React, { useState,useRef } from "react";
 import emailjs from '@emailjs/browser';
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 const contact = () => {
   const [fullname, setFullname] = useState("");
   const [email, setEmail] = useState("");
-  const [number, setNumber] = useState("");
+  // const [number, setValue] = useState("");
   const [message, setMessage] = useState("");
+  const [value, setValue] = useState()
   const form = useRef();
 
   //   Form validation
@@ -28,8 +31,8 @@ const contact = () => {
       tempErrors["email"] = true;
       isValid = false;
     }
-    if (number.length <= 0) {
-      tempErrors["number"] = true;
+    if (value.length <= 0) {
+      tempErrors["value"] = true;
       isValid = false;
     }
     if (message.length <= 0) {
@@ -80,7 +83,7 @@ const contact = () => {
       setFullname("");
       setEmail("");
       setMessage("");
-      setNumber("");
+      setValue("");
     }
     console.log(fullname, email,  message);
    };
@@ -224,18 +227,18 @@ const contact = () => {
             htmlFor="subject"
             className="text-gray-500 font-light mt-4 "
           >
-            Number<span className="text-red-500">*</span>
+            Number<span className="text-red-500">*</span>(With ISD Code)
           </label>
-          <input
-            type="number"
+          <PhoneInput
             name="number"
-            value={number}
-            onChange={(e) => {
-              setNumber(e.target.value);
-            }}
+            placeholder="Enter phone number"
+            defaultCountry="IN"
+            style={{focus:'focus-disable'}}
+            value={value}
+            onChange={setValue}
             className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-green-500 font-light text-gray-500"
           />
-          {errors?.number && (
+          {errors?.value && (
             <p className="text-red-500">number cannot be empty.</p>
           )}
           <label

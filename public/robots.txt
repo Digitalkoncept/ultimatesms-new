@@ -6,4 +6,4 @@ Allow: /
 Host: https://ultimatesms.in
 
 # Sitemaps
-Sitemap: https://ultimatesms.in/sitemap.xml
+Sitemap: https://ultimatesms.in/sitemap.xml.xml

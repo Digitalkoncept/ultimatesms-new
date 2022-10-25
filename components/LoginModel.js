@@ -50,7 +50,7 @@ const Modal = () => {
                             <p className="text-gray-600  text-sm font-bold pl-3 mx-2 ">Bulk SMS</p>
                         </div>
                         
-                            <a href="http://103.104.73.146" target="_blank" rel="noopener noreferrer">
+                            <a href="https://bulk-sms-1.ultimatesms.in/login.php" target="_blank" rel="noopener noreferrer">
                                 
                         <button className="py-2 px-4 text-xs font-semibold leading-3 bg-indigo-700 rounded hover:bg-indigo-600 focus:outline-none text-white">Log In</button>
                         </a>

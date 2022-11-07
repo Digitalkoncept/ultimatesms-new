@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { createPopper } from '@popperjs/core';
 import { Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/solid'
+import Image from "next/image";
 import { Fragment } from 'react'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -61,9 +62,13 @@ const Navbar = ({logo}) => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center justify-between h-16">
               <div className="flex items-center">
-                <div className="flex-shrink-0 flex">
+                  <div className="flex-shrink-0 flex">
+                 <Link href={"/"}>
+                <a  className="cursor-pointer">
                   {/* dynamic logo updated */}
-                  <object data={'/logo.svg'} ></object>
+                <img src="/logo.png" height="43" width="213"  />  
+                </a>
+              </Link>
                 </div>
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">

@@ -63,7 +63,7 @@ export default function Home() {
       <main>
         <Slideshow/>
         <section className="text-gray-600 body-font">
-    <div className="container px-5 py-2 mx-auto">
+    <div className=" px-5 py-2 mx-auto">
       <h2 className="inline-flex items-center w-full py-8 my-auto justify-center px-auto text-4xl font-bold tracking-tight text-gray-800  ">
               Promotional
                         </h2>
@@ -258,7 +258,7 @@ export default function Home() {
     </div>
         </section>
         <section className="text-gray-600 body-font">
-  <div className="container px-5 py-2 mx-auto">
+  <div className=" px-5 py-2 mx-auto">
     <h2 className="inline-flex items-center w-full py-8 my-auto justify-center px-auto text-4xl font-bold tracking-tight text-gray-800  ">
       Transactional
     </h2>
@@ -545,9 +545,9 @@ export default function Home() {
       </div>
     </div>
   </div>
-</section>
+        </section>
 <section className="text-gray-600 body-font">
-  <div className="container px-5 py-8 mx-auto">
+  <div className=" px-5 py-8 mx-auto">
     <h2 className="inline-flex items-center w-full py-8 my-auto justify-center px-auto text-4xl font-bold tracking-tight text-gray-800  ">
       Tracking &amp; Reporting
     </h2>
@@ -838,7 +838,7 @@ export default function Home() {
   </div>
 </section>
 <section className="text-gray-600 body-font">
-  <div className="container px-5 py-8 mx-auto">
+  <div className=" px-5 py-8 mx-auto">
     <h2 className="inline-flex items-center w-full py-8 my-auto justify-center px-auto text-4xl font-bold tracking-tight text-gray-800  ">
       Why Choose Us?
     </h2>
